@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Explore Saudi</title>
+
+ <!-- swiper cdn link -->
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ <!-- custom css file link  -->
+ <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+<!-- header section starts -->
+
+
+<header>
+
+  <div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo"><span>E</span>xplore saudi</a>
+  
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#about">about us</a>
+    <a href="#book">book</a>
+    <a href="#packages">packages</a>
+    <a href="#services">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#review">review</a>
+    <a href="#contact">contact</a>
+  </nav>
+
+  <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+  </div>
+
+  <form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+  </form>
+
+</header>
+
+<!-- header section ends    -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+  <i class="fas fa-times" id="form-close"></i>
+
+  <form id="login-form">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have an account? <a href="#" id="register-link">register now</a></p>
+  </form>
+
+  <!-- Registration Form -->
+  <form id="register-form" style="display: none;">
+    <h3>register</h3>
+    <input type="text" class="box" placeholder="enter your name">
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="password" class="box" placeholder="confirm your password">
+    <input type="submit" value="register now" class="btn">
+    <p>already have an account? <a href="#" id="login-link">login here</a></p>
+  </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+  <div class="content">
+    <h3>adventure is worthwhile</h3>
+    <p>discover new places with us, adventure awaits</p>
+    <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn active" data-src="videos/v1.mov"></span>
+    <span class="vid-btn" data-src="videos/v2.mov"></span>
+    <span class="vid-btn" data-src="videos/v3.mov"></span>
+    <span class="vid-btn" data-src="videos/v4.mov"></span>
+    <span class="vid-btn" data-src="videos/AlUla Visual Journey.mov"></span>
+
+  </div>
+
+  <div class="video-container">
+    <video src="videos/v1.mov" id="video-slider" loop autoplay muted></video>
+  </div>
+
+</section> 
+
+<!-- home section ends --> 
+<!-- about section starts -->
+<section id="about">
+  <h1 class="heading">
+    <span>a</span>
+    <span>b</span>
+    <span>o</span>
+    <span>u</span>
+    <span>t</span>
+    <span class="space"></span>
+    <span>u</span>
+    <span>s</span>
+    </h1>
+  <p>Welcome to <span style="color: #800080;">Explore Saudi</span>, your gateway to discovering the heart
+     and soul of Saudi Arabia. Our mission is to offer unforgettable travel experiences that immerse you in
+      the beauty, history, and culture of this magnificent country.  From the pristine beaches of the Red Sea to the lush oases of Al-Ahsa and the majestic mountains of Asir,
+   our curated tours showcase the best of Saudi Arabia. Our passionate team ensures every journey is 
+   seamless and enriching. Join us to uncover the hidden gems and legendary tales of Saudi Arabia. 
+   With Explore Saudi, every adventure is an opportunity to discover the extraordinary.</p>
+</section>
+<!-- about section ends -->
+
+
+
+<!-- book section starts -->
+<section class="book" id="book">
+  <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+  </h1>
+
+  <div class="row">
+    <div class="image">
+      <img src="images2/book img.png" alt="">
+    </div>
+    <form action="">
+      <div class="inputBox">
+        <h3>Destination</h3>
+        <input type="text" placeholder="place name">
+      </div>
+      <div class="inputBox">
+        <h3>Number of Guests</h3>
+        <input type="number" placeholder="number of guests">
+      </div>
+      <div class="inputBox">
+        <h3>arrivals</h3>
+        <input type="date">
+      </div>
+      <div class="inputBox">
+        <h3>leaving</h3>
+        <input type="date">
+      </div>
+      <input type="submit" class="btn" value="book now">
+    </form>
+  </div>
+</section>
+
+
+<!-- book section ends -->
+
+
+<!-- packages section starts -->
+
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images2/riyadh.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Riyadh </h3>
+        <p>Explore the vibrant capital city of Saudi Arabia, with its modern architecture, bustling markets,
+           and rich cultural heritage.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $150.00 <span>$200.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images2/jeddah.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Jeddah </h3>
+        <p>Discover the cosmopolitan city of Jeddah, known for its historic old town, stunning Red Sea 
+          coastline, and vibrant culinary scene.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $100.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images2/mecca.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Mecca </h3>
+        <p>Embark on a spiritual journey to the holy city of Mecca, the birthplace of Islam and a 
+          destination for millions of pilgrims every year.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $160.00 <span>$200.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images2/al-ula.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Al-Ula </h3>
+        <p>Explore the ancient wonders of Al-Ula, a stunning region with unique rock formations, 
+          archaeological sites, and the enchanting UNESCO World Heritage site of Hegra.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $150.00 <span>$250.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images2/Rijal Alma village  - Saudi Arabia.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Abha </h3>
+        <p>Discover the captivating city of Abha, nestled in the lush mountains of the Asir region, 
+          known for its mild climate, scenic beauty, and rich cultural heritage.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $90.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="images2/Deesah Valley,Tabuk, Saudi Arabia.jpg" alt="">
+      <div class="content">
+        <h3> <i class="fas fa-map-marker-alt"></i> Tabuk </h3>
+        <p>Explore the stunning natural landscapes of Tabuk, from the stunning Aba'l Name sand dunes to 
+          the serene oases and ancient rock art sites.</p>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <div class="price"> $70.00 <span>$120.00</span> </div>
+        <a href="#" class="btn">book now</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- packages section ends -->
+
+
+<!-- services section starts -->
+<section class="services" id="services">
+
+  <h1 class="heading">
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fas fa-hotel"></i>
+      <h3>Luxurious Accommodations</h3>
+      <p>Discover a wide range of premium hotels and resorts in Saudi Arabia, offering unparalleled comfort and world-class amenities for your travel experience.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-utensils"></i>
+      <h3>Exquisite Cuisine</h3>
+      <p>Indulge in the rich and diverse culinary offerings of Saudi Arabia, from traditional Arabic dishes to international flavors, catering to every palate.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-bullhorn"></i>
+      <h3>Guided Experiences</h3>
+      <p>Explore Saudi Arabia with the guidance of knowledgeable and experienced local experts, ensuring your safety and providing unique insights into the country's history and culture.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-globe-asia"></i>
+      <h3>Diverse Destinations</h3>
+      <p>Discover the vast and captivating landscapes of Saudi Arabia, from the stunning Red Sea coast to the breathtaking desert oases and ancient historical sites.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-plane"></i>
+      <h3>Efficient Transportation</h3>
+      <p>Enjoy seamless and convenient transportation options within Saudi Arabia, including modern airports, high-speed trains, and well-connected road networks.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-hiking"></i>
+      <h3>Adventurous Activities</h3>
+      <p>Embark on thrilling adventures in Saudi Arabia, from desert safaris and mountain hikes to water sports and cultural experiences that will create lasting memories.</p>
+    </div>
+  </div>
+</section>
+
+<!-- services section ends -->
+
+
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+  </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="images/g-1.jpg" alt="">
+      <div class="content">
+        <h3>Riyadh</h3>
+        <p> Riyadh combines ancient history with modern dynamism,
+          offering a glimpse into Arabia’s past and future....  </p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-2.jpg" alt="">
+      <div class="content">
+        <h3>Al-Ukhdood archaeological</h3>
+        <p>The oasis city of Najran was a major trade center at 
+          least since the 8th century BCE until the 1st century CE</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-3.jpg" alt="">
+      <div class="content">
+        <h3>Prophet's Mosque</h3>
+        <p>is the second mosque built by the Islamic prophet Muhammad in Medina, after that of Quba,
+          as well as the second largest mosque and holiest site in Islam</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-4.jpg" alt="">
+      <div class="content">
+        <h3>Uqair</h3>
+        <p>Uqair beach is ideal for a family getaway in the winter months. 
+          Visitors can catch fish and then cook them on one of the barbeque counters. 
+          There is also a playground for kids</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-5.jpg" alt="">
+      <div class="content">
+        <h3>wadi namar waterfall</h3>
+        <p>Wadi Namer Waterfall is a man-made lake and park with a stunning
+          waterfall and a range of facilities and activities</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-6.jpg" alt="">
+      <div class="content">
+        <h3>green sarawt mountains</h3>
+        <p>is a part of the Hijaz Mountains in the western part of the Arabian Peninsula</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-7.jpg" alt="">
+      <div class="content">
+        <h3>Tabuk Flower Festival</h3>
+        <p>is a must-visit place. You will find 
+          millions of flowers here with different colors and types</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-8.jpg" alt="">
+      <div class="content">
+        <h3>Haql Beaches</h3>
+        <p>Haql beaches are a prime location for diverse maritime activities such as rafting,
+          swimming, and diving in the turquoise waters of the Sultaniyah beach.</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/g-9.jpg" alt="">
+      <div class="content">
+        <h3>diriyah</h3>
+        <p>Founding Day is the anniversary of the restoration of King Abdul Aziz Al Saud
+          - may God have mercy on him - with determination  to establish a solid state...</p>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- gallery section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+
+  <div class="swiper-container review-slider">
+
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+        <div class="box">
+            <img src="images2/profile.png" alt="">
+            <h3>Itha S</h3>
+            <p>The most expensive building on earth boasts the best sound system and air conditioning. 
+              It feels like the audio and AC are directed right at you. With millions of people praying 
+              there, I feel so blessed. There's easy access by car, bus, or walking, plenty of food, and 
+              free Zam Zam water.</p>
+            <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+            <img src="images2/profile.png" alt="">
+            <h3>Rafael_P</h3>
+            <p>Really amazingg!! The views is breathtaking!! 
+                One of the best beatiful cities in the world!! Make sure to take pictures</p>
+            <div class="stars">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images2/profile.png" alt="">
+          <h3>roba omar</h3>
+          <p>My trip with Explore Saudi was exceptional! The guides were knowledgeable, and the itinerary 
+            was perfectly tailored to showcase the beauty and culture of Saudi Arabia. Highly recommend!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images2/profile.png" alt="">
+          <h3>Jane Smith</h3>
+          <p>A fantastic travel experience! From the stunning landscapes to the delicious local cuisine, 
+            everything was well-organized and enjoyable. I loved exploring Saudi Arabia with this agency.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images2/profile.png" alt="">
+          <h3>ali mohammad</h3>
+          <p>Explore Saudi provided a truly immersive experience. The local insights and cultural tours 
+            were fascinating, and the accommodation was top-notch. Will definitely book again!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images2/profile.png" alt="">
+          <h3>Emily Davis</h3>
+          <p>An unforgettable journey through Saudi Arabia. The attention to detail and personalized 
+            service made the trip extraordinary. I appreciated the blend of adventure and relaxation.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- review section ends -->
+
+
+
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+  <h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+  </h1>
+
+  <div class="row">
+
+    <div class="image">
+      <img src="images2/contact img.png" alt="">
+    </div>
+
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+        <input type="number" placeholder="number">
+        <input type="text" placeholder="subject">
+      </div>
+      <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send message">
+    </form>
+
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- brand section starts -->
+
+
+<section class="brand-container">
+
+  <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images2/460759_V4_Logo_37330_SaudiTourism.png.avif" alt=""></div>
+      <div class="swiper-slide"><img src="images2/20211103_alul-nobackground.png" alt=""></div>
+      <div class="swiper-slide"><img src="images2/D-season.jpg copy.tiff" alt=""></div>
+      <div class="swiper-slide"><img src="images2/images.png" alt=""></div>
+      <div class="swiper-slide"><img src="images2/شعار_وزارة_السياحة_السعودية.svg.png" alt=""></div>
+      <div class="swiper-slide"><img src="iimages2/موسم-جدة.png" alt=""></div>
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- brand section ends -->
+
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3>branch locations</h3>
+      <a href="#">Riyadh</a>
+      <a href="#">Tabuk</a>
+      <a href="#">Jeddah</a>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#home">home</a>
+      <a href="#about">about us</a>
+      <a href="#book">book</a>
+      <a href="#packages">packages</a>
+      <a href="#services">services</a>
+      <a href="#gallery">gallery</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="#">facebook</a>
+      <a href="#">instagram</a>
+      <a href="#">X</a>
+      <a href="#">linkedin</a>
+    </div>
+  </div>
+  <h1 class="credit"> created by <span>Rseel, Lamyaa, Danah, Raghad, Wejdan, Riyam </span> <br>&copy; 2024 | all rights reserved! </h1>
+</section>
+
+<!-- footer section ends -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+</body>
+</html>
